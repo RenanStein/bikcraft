@@ -17,3 +17,6 @@
 
 /* seguros */
 @import "./seguros/seguros.css"; /* css da home */
+
+/* termos */
+@import "./termos/termos.css";
