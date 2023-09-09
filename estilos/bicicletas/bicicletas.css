@@ -1,6 +1,6 @@
 .bicicletas-bg:nth-child(3) {
-    background-image: linear-gradient(to right, var(--cor-branco) 30%, var(--cor-11) 30%);
-}
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);
+  }
 
 .bicicletas {
     display: grid;
@@ -71,7 +71,7 @@
 
 @media (max-width: 800px) {
     .bicicletas-bg:nth-child(3) {
-       background-color: var(--cor-11);
+       background: var(--cor-11);
     }
 
     .bicicletas {
