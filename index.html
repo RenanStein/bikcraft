@@ -17,7 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
-</head>
+        
+    <script>document.documentElement.classList.add('js');</script>
+</head>>
 
 <body>
     <header class="header-bg">
@@ -36,13 +38,15 @@
     <main class="introducao-bg">
         <div class="container introducao">
             <div class="introducao-conteudo">
-                <h1 class="font-1-xxl cor-branco">Bicicletas feitas sob medida<span class="font-1-xxl cor-p1">.</span>
+                <h1 class="font-1-xxl cor-branco fadeInDown" data-anime="200">Bicicletas feitas sob medida<span
+                        class="font-1-xxl cor-p1">.</span>
                 </h1>
-                <p class="font-2-l">Quando iniciamos a bikcraft queriamos apenas um produto que adorariamos utilizar.
+                <p class="font-2-l fadeInDown" data-anime="400">Quando iniciamos a bikcraft queriamos apenas um produto
+                    que adorariamos utilizar.
                     Eramos apaixonados por pedalar e também fazer.</p>
-                <a href="./bicicletas.html" class="botao">Selecione a sua</a>
+                <a href="./bicicletas.html" class="botao fadeInDown" data-anime="600">Selecione a sua</a>
             </div>
-            <picture>
+            <picture data-anime="800" class="fadeInDown">
                 <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
                 <img src="img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta">
             </picture>
@@ -206,7 +210,9 @@
 
     </footer>
 
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
+
 </body>
 
 </html>
