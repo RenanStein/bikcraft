@@ -70,3 +70,8 @@ galeria.forEach(eventosGaleria);
 
 
 console.log(galeria, galeriaContainer)
+
+//animação
+if(window.SimpleAnime){
+new SimpleAnime();
+}

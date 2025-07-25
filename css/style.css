@@ -15,6 +15,7 @@
 /* utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/formulario.css";
+@import "./utilidades/animacao.css";
 
 /* bicicletas */
 @import "./bicicletas/bicicletas-listas.css";
